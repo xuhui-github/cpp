@@ -1,0 +1,1 @@
+split.o: split.c

@@ -1,0 +1,1 @@
+threaddemo.o: threaddemo.c

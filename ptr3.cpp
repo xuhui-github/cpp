@@ -11,5 +11,6 @@ int main(void){
     ++ptr;
   std::cout<<"Number of element before five "<<(ptr-array)<<std::endl;
   return 0;
+  
 }
 
