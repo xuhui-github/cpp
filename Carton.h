@@ -12,6 +12,7 @@ class Carton : public Box{
   public:
     Carton(double lv,double wv,double hv,std::string_view str="carboard"):Box{lv,wv,hv}, material{str}
     {}
+    ~Carton(){std::cout<<"Carton destructor called"<<std::endl;}
 
     double volume() const
     {

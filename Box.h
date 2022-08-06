@@ -10,6 +10,7 @@ class Box{
   public:
     Box() = default;
     Box(double lv,double wv,double hv):length(lv),width(wv),height(hv){}
+    virtual ~Box(){std::cout << "Box destructor called" << std::endl;}
     void showVolume()const{
       std::cout << "Box usable volues is " <<volume() <<std::endl;
     }

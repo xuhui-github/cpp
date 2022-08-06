@@ -1,9 +1,12 @@
 {
     "files.associations": {
-        "iostream": "cpp",
-        "stdio.h": "c",
-        "string.h": "c",
-        "stdlib.h": "c",
-        "vector": "cpp"
+      "iostream": "cpp",
+      "stdio.h": "c",
+      "string.h": "c",
+      "stdlib.h": "c",
+      "vector": "cpp",
+      "*.ipp": "cpp",
+      "ostream": "cpp",
+      "algorithm": "cpp"
     }
 }
