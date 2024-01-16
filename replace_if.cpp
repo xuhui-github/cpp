@@ -1,6 +1,8 @@
 #include<algorithm>
 #include "data.hpp"
 #include "intrange.hpp"
+#include<unistd.h>
+
 
 int main(){
   intvector data{};

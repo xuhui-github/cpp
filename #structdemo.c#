@@ -1,0 +1,17 @@
+typedef struct item_t {
+  int value;
+} item_t;
+
+struct Person{
+  int age;
+  char *name;
+  char addr[30];
+};
+
+void main(void){
+  struct Person p;
+  p.age=23;
+  p.name=(char*)malloc(sizeof(char)*23);
+  strcpy("just a test",p.name);
+}
+  
